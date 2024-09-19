@@ -1,0 +1,16 @@
+.profile-img{
+  height:100px;
+  margin: 10px;
+  border-radius: 60px;
+  
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:150px;
+  background-color: rgb(214, 67, 116);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}

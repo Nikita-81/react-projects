@@ -1,0 +1,32 @@
+body{
+  font-family: "Open Sans";
+}
+
+h2{
+letter-spacing: 3px;
+text-align: center;
+}
+
+.user-id{
+  font-size: smaller;
+  margin:-22px;
+  color: gray;
+  text-align: center;
+}
+
+.user-name{
+  margin-bottom: 45px;
+}
+
+.icons{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.about{
+  text-align: center;
+  margin: 30px;
+  font-size: small;
+}

@@ -1,0 +1,16 @@
+.btn button{
+  border-radius: 25px;
+  height:35px;
+  width:115px;
+  border:1px solid rgb(161, 161, 161);
+  margin: 10px;
+  color:rgb(161, 161, 161);
+  background-color: white;
+}
+
+.btn button:hover{
+  background-color: rgb(214, 67, 116);
+  color: white;
+  border: none;
+  
+}

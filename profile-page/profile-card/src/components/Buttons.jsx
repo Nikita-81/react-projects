@@ -1,12 +1,12 @@
 import React from "react";
 import "./Buttons.css";
 
-const Buttons = () => {
+const Buttons = ({ handleTextToShow }) => {
   return (
     <>
       <div className="btn">
         <button>Follow</button>
-        <button>Message</button>
+        <button onClick={handleTextToShow}>Message</button>
       </div>
     </>
   );

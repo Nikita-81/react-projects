@@ -1,0 +1,23 @@
+.textarea{
+  border : none;
+  height : 200px;
+  width : 250px;
+}
+
+.textsend{
+  width : 190px;
+  height : 25px;
+  margin-right: 7px;
+  margin-top: 5px;;
+  border-radius: 60px;
+}
+
+form button{
+  height : 30px;
+  width : 50px;
+  border : none;
+  background-color: rgb(214, 67, 116) ;
+  border-radius: 60px;
+  color:white;
+  margin-top: 5px;
+}

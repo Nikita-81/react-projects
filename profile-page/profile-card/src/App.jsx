@@ -6,26 +6,30 @@ import Message from "./components/Message";
 import { useState } from "react";
 
 function App() {
-  let [textToShow, setTextToShow] = useState([]);
-  textToShow = {
+  const [textToShow, setTextToShow] = useState({
     username: "Hailey Lima",
     userid: "@haileylima",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sit est voluptates magni dolores dolorem.",
-  };
+  });
+
+  const [showMessage, setShowMessage] = useState(false);
 
   const handleTextToShow = () => {
-    [...textToShow.userid];
+    setShowMessage(true);
   };
-  setTextToShow(handleTextToShow);
 
   return (
     <center>
       <div className="card">
         <Header />
-        <Content textToShow={textToShow} />
-        <Buttons />
-        <Message></Message>
+        {!showMessage && (
+          <>
+            <Content textToShow={textToShow} />
+            <Buttons handleTextToShow={handleTextToShow} />
+          </>
+        )}
+        {showMessage && <Message></Message>}
       </div>
     </center>
   );

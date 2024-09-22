@@ -6,11 +6,26 @@
 }
 
 .header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   height:150px;
   background-color: rgb(214, 67, 116);
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  position: relative;
+}
+
+.backarrow{
+  padding : 10px;
+}
+
+.back{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pfp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

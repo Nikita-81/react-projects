@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 import Buttons from "./components/Buttons";
 import Message from "./components/Message";
+import SmallHeader from "./components/SmallHeader";
 import { useState } from "react";
 
 function App() {
@@ -19,17 +20,30 @@ function App() {
     setShowMessage(true);
   };
 
+  const handleBackButton = () => {
+    console.log("button clicked");
+    setShowMessage(false);
+  };
+
   return (
     <center>
       <div className="card">
-        <Header />
         {!showMessage && (
           <>
+            <Header />
             <Content textToShow={textToShow} />
             <Buttons handleTextToShow={handleTextToShow} />
           </>
         )}
-        {showMessage && <Message></Message>}
+        {showMessage && (
+          <>
+            <SmallHeader
+              handleBackButton={handleBackButton}
+              textToShow={textToShow}
+            />
+            <Message />
+          </>
+        )}
       </div>
     </center>
   );

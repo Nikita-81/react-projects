@@ -1,0 +1,41 @@
+.msg-header img{
+  height : 50px;
+  border-radius: 60px;
+
+}
+
+.msg-header{
+  height : 70px;
+  background-color: rgb(214, 67, 116);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.call{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-icons{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.id{
+  font-size: 10px;
+  margin : 0px 0px 0px 5px;
+
+}
+
+.name{
+  font-size: 12px;
+ padding-left: 4px;
+ margin: 0px;
+}

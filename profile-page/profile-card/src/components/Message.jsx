@@ -3,11 +3,11 @@ import "./Message.css";
 
 const Message = () => {
   return (
-    <form>
+    <div className="inputs">
       <input className="textarea" readOnly></input>
       <input type="text" className="textsend" />
       <button>Send</button>
-    </form>
+    </div>
   );
 };
 

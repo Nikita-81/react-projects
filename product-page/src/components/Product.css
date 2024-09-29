@@ -1,0 +1,24 @@
+.left-section img{
+  height: 400px;
+  padding: 10px;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+
+ 
+}
+
+.right-section{
+  width:30vw
+}
+
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  margin:40px 40px;
+  align-items: center;
+  height: 75vh;
+
+}

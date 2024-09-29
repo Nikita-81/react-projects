@@ -7,7 +7,7 @@ import Product from "./components/Product";
 
 function App() {
   return (
-    <div>
+    <div className="css">
       <Navbar />
       <Product />
     </div>
